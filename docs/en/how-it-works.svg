@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="352" viewBox="0 0 960 352" role="img" aria-label="How it works">
+<title>How it works</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#86868b"/></marker></defs>
+<rect x="0.5" y="0.5" width="959" height="351" rx="24" fill="#ffffff" stroke="#e5e5ea"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<text x="32" y="50" font-size="24" font-weight="700" fill="#1d1d1f" text-anchor="start">How it works</text>
+<text x="32" y="76" font-size="14" font-weight="400" fill="#6e6e73" text-anchor="start">Everything runs inside the visitor&#x27;s browser — audio never leaves the device.</text>
+<rect x="32" y="104" width="152" height="116" rx="16" fill="#f5f5f7"/>
+<text x="108.0" y="136" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">Microphone</text>
+<text x="108.0" y="155" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">or file</text>
+<text x="108.0" y="184" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">live or recorded</text>
+<line x1="188" y1="162.0" x2="212" y2="162.0" stroke="#86868b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="218" y="104" width="152" height="116" rx="16" fill="#f5f5f7"/>
+<text x="294.0" y="136" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">Noise</text>
+<text x="294.0" y="155" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">suppression</text>
+<text x="294.0" y="184" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">optional A/B:</text>
+<text x="294.0" y="200" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">off · browser · RNNoise</text>
+<line x1="374" y1="162.0" x2="398" y2="162.0" stroke="#86868b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="404" y="104" width="152" height="116" rx="16" fill="#f5f5f7"/>
+<text x="480.0" y="136" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">Log-mel</text>
+<text x="480.0" y="155" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">features</text>
+<text x="480.0" y="184" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">16 kHz · 128 bands</text>
+<text x="480.0" y="200" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">10 ms frames</text>
+<line x1="560" y1="162.0" x2="584" y2="162.0" stroke="#86868b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="590" y="104" width="152" height="116" rx="16" fill="#eef5ff" stroke="#0071e3" stroke-width="1.5"/>
+<text x="666.0" y="136" font-size="15" font-weight="650" fill="#0071e3" text-anchor="middle">Nemotron-3</text>
+<text x="666.0" y="155" font-size="15" font-weight="650" fill="#0071e3" text-anchor="middle">Diarization</text>
+<text x="666.0" y="184" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">ONNX int8 · WebGPU</text>
+<text x="666.0" y="200" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">≈ 100 M parameters</text>
+<line x1="746" y1="162.0" x2="770" y2="162.0" stroke="#86868b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="776" y="104" width="152" height="116" rx="16" fill="#f5f5f7"/>
+<text x="852.0" y="136" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">Takeover</text>
+<text x="852.0" y="155" font-size="15" font-weight="650" fill="#1d1d1f" text-anchor="middle">decision</text>
+<text x="852.0" y="184" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">thresholds +</text>
+<text x="852.0" y="200" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="middle">evidence timer</text>
+<line x1="646" y1="224" x2="646" y2="248" stroke="#0071e3" stroke-width="1.5"/>
+<path d="M642,242 L646,249 L650,242" fill="none" stroke="#0071e3" stroke-width="1.5"/>
+<line x1="686" y1="250" x2="686" y2="224" stroke="#0071e3" stroke-width="1.5"/>
+<path d="M682,231 L686,224 L690,231" fill="none" stroke="#0071e3" stroke-width="1.5"/>
+<rect x="574" y="252" width="184" height="58" rx="14" fill="#ffffff" stroke="#0071e3" stroke-width="1.2" stroke-dasharray="4 4"/>
+<text x="666.0" y="276" font-size="12.5" font-weight="650" fill="#1d1d1f" text-anchor="middle">Speaker cache + FIFO</text>
+<text x="666.0" y="295" font-size="10.5" font-weight="400" fill="#6e6e73" text-anchor="middle">remembers voices across chunks</text>
+<rect x="32" y="252" width="306" height="58" rx="14" fill="#f5f5f7"/>
+<text x="48" y="276" font-size="12.5" font-weight="650" fill="#1d1d1f" text-anchor="start">Downloaded once · ≈ 120 MB</text>
+<text x="48" y="295" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="start">then served from the browser cache</text>
+<rect x="372" y="252" width="190" height="58" rx="14" fill="#f5f5f7"/>
+<text x="467" y="276" font-size="12.5" font-weight="650" fill="#1d1d1f" text-anchor="middle">1.04 s input buffer</text>
+<text x="467" y="295" font-size="10.5" font-weight="400" fill="#6e6e73" text-anchor="middle">0.72 s chunk + 0.32 s look-ahead</text>
+<line x1="852.0" y1="224" x2="852.0" y2="244" stroke="#86868b" stroke-width="1.5" marker-end="url(#arr)"/>
+<rect x="768" y="250" width="168" height="24" rx="12" fill="#f5f5f7"/>
+<circle cx="782" cy="262" r="5" fill="#34c759"/>
+<text x="794" y="266" font-size="11.5" font-weight="500" fill="#1d1d1f" text-anchor="start">Original speaker</text>
+<rect x="768" y="280" width="168" height="24" rx="12" fill="#f5f5f7"/>
+<circle cx="782" cy="292" r="5" fill="#ff9f0a"/>
+<text x="794" y="296" font-size="11.5" font-weight="500" fill="#1d1d1f" text-anchor="start">Verifying change</text>
+<rect x="768" y="310" width="168" height="24" rx="12" fill="#f5f5f7"/>
+<circle cx="782" cy="322" r="5" fill="#ff3b30"/>
+<text x="794" y="326" font-size="11.5" font-weight="500" fill="#1d1d1f" text-anchor="start">Someone else took over</text>
+</g>
+</svg>

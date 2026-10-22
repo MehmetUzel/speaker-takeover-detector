@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="352" viewBox="0 0 960 352" role="img" aria-label="Adım başına hesaplama süresi">
+<title>Adım başına hesaplama süresi</title>
+<defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#86868b"/></marker></defs>
+<rect x="0.5" y="0.5" width="959" height="351" rx="24" fill="#ffffff" stroke="#e5e5ea"/>
+<g font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Helvetica Neue', Helvetica, Arial, sans-serif">
+<text x="32" y="50" font-size="24" font-weight="700" fill="#1d1d1f" text-anchor="start">Adım başına hesaplama süresi</text>
+<text x="32" y="76" font-size="14" font-weight="400" fill="#6e6e73" text-anchor="start">Her adım 0.72 sn sesi işler. Kesikli çizginin solu = gerçek zamana yetişir. Apple M1 Pro&#x27;da ölçüldü.</text>
+<text x="32" y="131" font-size="13.5" font-weight="600" fill="#1d1d1f" text-anchor="start">Tarayıcı · WebGPU</text>
+<text x="32" y="148" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="start">int8 ONNX</text>
+<rect x="300" y="122" width="600" height="22" rx="11" fill="#f5f5f7"/>
+<rect x="300" y="122" width="69.0" height="22" rx="11" fill="#0071e3" opacity="0.35"/>
+<rect x="300" y="122" width="39.0" height="22" rx="11" fill="#0071e3" opacity="0.95"/>
+<text x="379.0" y="138" font-size="12" font-weight="600" fill="#1d1d1f" text-anchor="start">≈ 65–115 ms</text>
+<text x="32" y="179" font-size="13.5" font-weight="600" fill="#1d1d1f" text-anchor="start">Mac GPU · PyTorch MPS</text>
+<text x="32" y="196" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="start">fp32, Python referansı</text>
+<rect x="300" y="170" width="600" height="22" rx="11" fill="#f5f5f7"/>
+<rect x="300" y="170" width="42.0" height="22" rx="11" fill="#5ac8fa" opacity="0.35"/>
+<rect x="300" y="170" width="30.0" height="22" rx="11" fill="#5ac8fa" opacity="0.95"/>
+<text x="352.0" y="186" font-size="12" font-weight="600" fill="#1d1d1f" text-anchor="start">≈ 50–70 ms</text>
+<text x="32" y="227" font-size="13.5" font-weight="600" fill="#1d1d1f" text-anchor="start">Yerel CPU · onnxruntime</text>
+<text x="32" y="244" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="start">int8 ONNX</text>
+<rect x="300" y="218" width="600" height="22" rx="11" fill="#f5f5f7"/>
+<rect x="300" y="218" width="198.0" height="22" rx="11" fill="#8e8e93" opacity="0.35"/>
+<rect x="300" y="218" width="66.0" height="22" rx="11" fill="#8e8e93" opacity="0.95"/>
+<text x="508.0" y="234" font-size="12" font-weight="600" fill="#1d1d1f" text-anchor="start">≈ 110–330 ms</text>
+<text x="32" y="275" font-size="13.5" font-weight="600" fill="#1d1d1f" text-anchor="start">Tarayıcı · WASM, tek iş parçacığı</text>
+<text x="32" y="292" font-size="11.5" font-weight="400" fill="#6e6e73" text-anchor="start">int8 ONNX, WebGPU yok</text>
+<rect x="300" y="266" width="600" height="22" rx="11" fill="#f5f5f7"/>
+<rect x="300" y="266" width="594" height="22" rx="11" fill="#ff3b30" opacity="0.85"/>
+<path d="M878,263 l8,28 M886,263 l8,28" stroke="#ffffff" stroke-width="3"/>
+<text x="866" y="282" font-size="11.5" font-weight="600" fill="#ffffff" text-anchor="end">≈ 5 600 ms · canlı için çok yavaş</text>
+<line x1="732.0" y1="108" x2="732.0" y2="302" stroke="#ff3b30" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="732.0" y="102" font-size="11.5" font-weight="600" fill="#ff3b30" text-anchor="middle">gerçek zaman sınırı · 720 ms</text>
+<line x1="300.0" y1="308" x2="300.0" y2="312" stroke="#86868b" stroke-width="1"/>
+<text x="300.0" y="326" font-size="11" font-weight="400" fill="#86868b" text-anchor="middle">0 ms</text>
+<line x1="450.0" y1="308" x2="450.0" y2="312" stroke="#86868b" stroke-width="1"/>
+<text x="450.0" y="326" font-size="11" font-weight="400" fill="#86868b" text-anchor="middle">250 ms</text>
+<line x1="600.0" y1="308" x2="600.0" y2="312" stroke="#86868b" stroke-width="1"/>
+<text x="600.0" y="326" font-size="11" font-weight="400" fill="#86868b" text-anchor="middle">500 ms</text>
+<line x1="750.0" y1="308" x2="750.0" y2="312" stroke="#86868b" stroke-width="1"/>
+<text x="750.0" y="326" font-size="11" font-weight="400" fill="#86868b" text-anchor="middle">750 ms</text>
+<line x1="900.0" y1="308" x2="900.0" y2="312" stroke="#86868b" stroke-width="1"/>
+<text x="900.0" y="326" font-size="11" font-weight="400" fill="#86868b" text-anchor="middle">1000 ms</text>
+</g>
+</svg>
